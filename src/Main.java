@@ -1,10 +1,11 @@
-import java.util.Scanner;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-
+        // Variables
+        // Stores the getter method data
+        String brandNameGetter;
+        String shoeColorGetter;
+        double shoeSizeGetter;
 
         //Create new objects.
 
@@ -34,6 +35,11 @@ public class Main {
         kidPair.setShoeSize();
         System.out.println();
 
+        // Calls the getter methods.
+        brandNameGetter = userPair.getBrandName();
+        shoeColorGetter = wifePair.getShoeColor();
+        shoeSizeGetter = kidPair.getShoeSize();
+
         // OUTPUT
         // Prints out the output messages.
         // Calls the printAll() method for all 3 objects.
@@ -52,6 +58,8 @@ public class Main {
         wifePair.printAll();
         System.out.println("sneakers.");
         System.out.println();
+
+        // Getter output
 
 
 
