@@ -1,3 +1,7 @@
+// Marc Galvez
+// September 21, 2023
+// Ch. 1-3 Prog
+
 import java.util.Scanner;
 
 public class PairOfShoes {

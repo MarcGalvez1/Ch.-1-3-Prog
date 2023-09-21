@@ -1,4 +1,8 @@
-
+// Marc Galvez
+// September 21, 2023
+// Ch. 1-3 Prog
+// I had a little bit of confusion about the instructions: mainly weather or not I could put the prompt on the setter methods.
+// I was also confused on where to put blank lines in the output statements, because watching your video and looking at the black board screen it is not clear.
 public class Main {
     public static void main(String[] args) {
         // Variables
@@ -54,14 +58,15 @@ public class Main {
         System.out.println("shoes that she really likes.");
 
         // Kid object output using printAll()
-        System.out.print("My kid wears a pair of");
-        wifePair.printAll();
+        System.out.print("My kid wears a pair of ");
+        kidPair.printAll();
         System.out.println("sneakers.");
         System.out.println();
 
         // Getter output
-
-
+        System.out.println("At least 1 pair of shoes is made by " + brandNameGetter + ",");
+        System.out.println("and 1 is " + shoeColorGetter + ".");
+        System.out.printf("Someone wears a size %.1f shoe.\n", shoeSizeGetter);
 
     }
 }
